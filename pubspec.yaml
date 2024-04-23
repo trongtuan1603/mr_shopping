@@ -1,0 +1,82 @@
+name: demo_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  awesome_flutter_extensions: ^1.2.0
+  hexcolor: ^3.0.1
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.9
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/animations/
+
+  fonts:
+    - family: Black
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+    - family: ExtraBold
+      fonts:
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+    - family: ExtraLight
+      fonts:
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+    - family: SemiBold
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.ttf
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: Light
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+    # Open Sans fonts
+    - family: OpenSansBold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+    - family: OpenSansExtraBold
+      fonts:
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+    - family: OpenSansMedium
+      fonts:
+        - asset: assets/fonts/OpenSans-Medium.ttf
+    - family: OpenSansSemiBold
+      fonts:
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+    - family: OpenSansRegular
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+    - family: OpenSansLight
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
